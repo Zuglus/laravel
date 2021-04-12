@@ -1,11 +1,11 @@
 <!doctype html>
 
 <title>My blog</title>
-<link rel="stylesheet" href="app.css">
+<link rel="stylesheet" href="../app.css">
 
 <body>
     <article>
-        <?= $post; ?>
+        <?= $post ?>
     </article>
 
     <a href="/">Назад</a>
