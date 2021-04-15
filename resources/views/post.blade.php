@@ -1,13 +1,8 @@
-<!doctype html>
-
-<title>My blog</title>
-<link rel="stylesheet" href="../app.css">
-
-<body>
+<x-layout>
     <article>
         <h1>{{$post->title}}</h1>
         {!!$post->body!!}
     </article>
 
     <a href="/">Назад</a>
-</body>
+</x-layout>
